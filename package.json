@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "lerna run --scope @static-remotes/* build",
+    "start": "lerna run --scope @static-remotes/* --parallel start",
+    "serve": "lerna run --scope @static-remotes/* --parallel serve",
+    "clean": "lerna run --scope @static-remotes/* --parallel clean"
+  },
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  },
+  "name": "static-remotes"
+}
